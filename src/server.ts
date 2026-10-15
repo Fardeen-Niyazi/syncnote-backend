@@ -93,5 +93,5 @@ io.on("connection", (socket) => {
 // If Neon is asleep, /health reports "disconnected" but the server still
 // answers — this keeps Render deploys and offline-app debugging simple.
 httpServer.listen(PORT, "0.0.0.0", () => {
-  console.log(`SyncNote API running on port ${PORT}`);
+  console.log(`SyncNote API running  successfully on port ${PORT}`);
 });
